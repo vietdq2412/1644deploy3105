@@ -22,5 +22,5 @@ app.get('/contact', (req, res) => {
 })
 
 const PORT = 5000;
-app.listen(process.PORT || PORT);
-console.log("running port: " + PORT);
+app.listen(process.env.PORT || PORT);
+console.log("running");
